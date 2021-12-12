@@ -1,0 +1,9 @@
+<aura:component
+        description="TestDynamicalyCreateComponent"
+        implements="flexipage:availableForAllPageTypes"
+        access="global">
+    <aura:handler name="init" value="{!this}" action="{!c.doInit}"/>
+
+    <p>Dynamically created button</p>
+    {!v.body}
+</aura:component>
